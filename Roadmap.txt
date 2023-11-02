@@ -6,13 +6,12 @@ app idea: Object detection of human bones to help anatomy and physiology student
 
 Onboarding stuff:
     fill out questionnaire - https://docs.google.com/document/d/1cGdQlANm9xN4Ykoe5W9QyF55gjFoxqnxM5yJD7bvSvI/edit?usp=sharing
-    decide what area you want to work on
     download github (shared code repository for version control)
-        optional: download sourcetree - GUI for github to visualize app history (push and pull requests)
+        optional: download sourcetree - GUI for github to visualize app history (easier to use than command line)
     download pytorch and dependencies - https://pytorch.org/get-started/locally/
         Dependencies:
-            python 3.11.8 or older
-            anaconda
+            python 3.11.8 or older - https://www.python.org/downloads/
+            anaconda - https://www.anaconda.com/download
     download flutter and dependencies - https://docs.flutter.dev/get-started/install/windows
     
 areas to work on:
