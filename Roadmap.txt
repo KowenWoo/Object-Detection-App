@@ -22,8 +22,9 @@ Group:
                 useful in every day lives
             cons: 
                 may require engineering to integrate software into a smart lock system
-        Unique person detection to monitor busy-ness in a building (ex. gym)
+        Unique person detection to monitor busy-ness in a building 
             pros:
                 very diverse application (study spots, businesses, gym. etc.)
+                every day problem 
             cons:
                 infringes on privacy
