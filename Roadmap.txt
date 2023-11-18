@@ -1,30 +1,31 @@
 General direction and goals for project
 
-Individual:
-    familiarize yourself with TensorFlow and Flutter
-        Flutter uses Dart programming language (similar to JS)
-    Outline what areas you want to work on:
-        Neural network model
-        UI/UX
-        front end design
-        back end design
+app idea: Object detection of human bones to help anatomy and physiology students study 
+        app processes picture of a limb or some other group and labels every bone
+        eventually add functionality to also label features of bones and contribution to larger structure in drow down menu
 
-Group:
-    Decide on general direction for app:
-        Object detection of human bones to help anatomy and physiology students study 
-            app processes picture of a limb or some other group and labels every bones
-            pros:
-                lots of training data available
-            cons:
-                small target audience
-        Facial detection to work with smart lock system on a door
-            pros:
-                useful in every day lives
-            cons: 
-                may require engineering to integrate software into a smart lock system
-        Unique person detection to monitor busy-ness in a building 
-            pros:
-                very diverse application (study spots, businesses, gym. etc.)
-                every day problem 
-            cons:
-                infringes on privacy
+Onboarding stuff:
+    fill out questionnaire - https://docs.google.com/document/d/1cGdQlANm9xN4Ykoe5W9QyF55gjFoxqnxM5yJD7bvSvI/edit?usp=sharing
+    download github (shared code repository for version control)
+        optional: download sourcetree - GUI for github to visualize app history (easier to use than command line)
+    download pytorch and dependencies - https://pytorch.org/get-started/locally/
+        Dependencies:
+            python 3.11.8 or older - https://www.python.org/downloads/
+            anaconda - https://www.anaconda.com/download
+    download flutter and dependencies - https://docs.flutter.dev/get-started/install/windows
+    work log: https://docs.google.com/document/d/1AcwX59t93Uj1tkhJ6Edy7vzg9h7ID05o0EdRkH3FNDc/edit?usp=sharing
+    
+areas to work on:
+    data collection and analysis (no programming experience required)
+        find datasets via research papers with readily available annotated pictures 
+        if none compile images from textbooks, diagrams, etc.
+    UI/UX using flutter (front end - some programming experience required, will have to learn dart regardless)
+        decide on UI direction and layout
+        implement efficiency and usability in UX
+        use dummy pytorch model as placeholder for neural network
+    neural network model (back end - most programming heavy aspect)
+        learn pytorch 
+        familiarize with sample object detection on pytorch docs
+        use sample object detection with our datasets
+        training neural network
+        implementing neural network into UI/UX
