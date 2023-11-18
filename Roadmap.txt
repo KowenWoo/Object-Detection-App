@@ -13,6 +13,7 @@ Onboarding stuff:
             python 3.11.8 or older - https://www.python.org/downloads/
             anaconda - https://www.anaconda.com/download
     download flutter and dependencies - https://docs.flutter.dev/get-started/install/windows
+    work log: https://docs.google.com/document/d/1AcwX59t93Uj1tkhJ6Edy7vzg9h7ID05o0EdRkH3FNDc/edit?usp=sharing
     
 areas to work on:
     data collection and analysis (no programming experience required)
