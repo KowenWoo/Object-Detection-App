@@ -2,24 +2,21 @@ General direction and goals for project
 
 app idea: Object detection of human bones to help anatomy and physiology students study 
         app processes picture of a limb or some other group and labels every bone
-        eventually add functionality to also label features of bones and contribution to larger structure in drow down menu
+        eventually add functionality to also label features of bones and contribution to larger structure in drop down menu
 
 Onboarding stuff:
     fill out questionnaire - https://docs.google.com/document/d/1cGdQlANm9xN4Ykoe5W9QyF55gjFoxqnxM5yJD7bvSvI/edit?usp=sharing
     download github (shared code repository for version control)
         optional: download sourcetree - GUI for github to visualize app history (easier to use than command line)
-    download pytorch and dependencies - https://pytorch.org/get-started/locally/
-        Dependencies:
-            python 3.11.8 or older - https://www.python.org/downloads/
-            anaconda - https://www.anaconda.com/download
-    download flutter and dependencies - https://docs.flutter.dev/get-started/install/windows
+    Downloading and dependencies: USE CONDA ENV FOR PACKAGE MANAGEMENT
+        For now we need pytorch (website download), ultralytics(conda forge), streamlit(conda forge), pafy(conda forge)
     work log: https://docs.google.com/document/d/1AcwX59t93Uj1tkhJ6Edy7vzg9h7ID05o0EdRkH3FNDc/edit?usp=sharing
     
 areas to work on:
     data collection and analysis (no programming experience required)
         find datasets via research papers with readily available annotated pictures 
         if none compile images from textbooks, diagrams, etc.
-    UI/UX using flutter (front end - some programming experience required, will have to learn dart regardless)
+    UI/UX using streamlit (front end - some programming experience required)
         decide on UI direction and layout
         implement efficiency and usability in UX
         use dummy pytorch model as placeholder for neural network
